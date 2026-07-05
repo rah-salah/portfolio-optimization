@@ -14,6 +14,8 @@ jobs:
         with:
           python-version: "3.11"
       - name: Install dependencies
-        run: pip install pytest pandas numpy
+        run: pip install pytest pandas numpy yfinance
+      - name: Download data
+        run: python src/data_loader.py
       - name: Run tests
         run: pytest tests/ -v
