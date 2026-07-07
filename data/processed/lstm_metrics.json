@@ -1,1 +1,1 @@
-{"model": "LSTM", "MAE": 0.2278, "RMSE": 0.2926, "MAPE": 0.33}
+{"model": "LSTM", "MAE": 11.0709, "RMSE": 14.3304, "MAPE": 3.62}
