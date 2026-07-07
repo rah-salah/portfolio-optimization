@@ -1,0 +1,35 @@
+{
+  "max_sharpe_portfolio": {
+    "total_return_pct": 27.26,
+    "annualized_return_pct": 27.38,
+    "annualized_volatility_pct": 44.6,
+    "sharpe_ratio": 0.569,
+    "max_drawdown_pct": -29.93
+  },
+  "min_volatility_portfolio": {
+    "total_return_pct": 5.11,
+    "annualized_return_pct": 5.13,
+    "annualized_volatility_pct": 3.81,
+    "sharpe_ratio": 0.8206,
+    "max_drawdown_pct": -2.71
+  },
+  "benchmark_60_40": {
+    "total_return_pct": 14.64,
+    "annualized_return_pct": 14.7,
+    "annualized_volatility_pct": 8.11,
+    "sharpe_ratio": 1.5657,
+    "max_drawdown_pct": -5.84
+  },
+  "weights_used": {
+    "max_sharpe": {
+      "TSLA": 1.0,
+      "BND": 0.0,
+      "SPY": 0.0
+    },
+    "min_volatility": {
+      "TSLA": 0.0,
+      "BND": 0.9454,
+      "SPY": 0.0546
+    }
+  }
+}
