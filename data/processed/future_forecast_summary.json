@@ -1,0 +1,32 @@
+{
+  "last_actual_price": 73.47,
+  "last_actual_date": "2026-06-29",
+  "forecast_end_price": 73.48,
+  "forecast_end_date": "2027-06-16",
+  "pct_change": 0.02,
+  "trend_direction": "upward",
+  "milestones": {
+    "1_month": {
+      "date": "2026-07-28",
+      "forecast_price": 73.48,
+      "ci_lower": 71.59,
+      "ci_upper": 75.36,
+      "ci_width": 3.77
+    },
+    "6_month": {
+      "date": "2026-12-22",
+      "forecast_price": 73.48,
+      "ci_lower": 68.88,
+      "ci_upper": 78.08,
+      "ci_width": 9.2
+    },
+    "12_month": {
+      "date": "2027-06-16",
+      "forecast_price": 73.48,
+      "ci_lower": 66.98,
+      "ci_upper": 79.98,
+      "ci_width": 13.0
+    }
+  },
+  "ci_widens_over_time": true
+}
