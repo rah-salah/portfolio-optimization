@@ -10,7 +10,11 @@ def fetch_data(tickers, start, end):
     print(f'Downloading data for {tickers}...')
     data = yf.download(tickers, start=start, end=end, auto_adjust=True)
     close = data['Close']
-    close.columns = tickers
+    # IMPORTANT: yfinance returns multi-ticker columns sorted alphabetically,
+    # not in the order `tickers` was passed. Select by actual column label
+    # (already correct from yfinance) instead of blindly reassigning .columns,
+    # which previously caused TSLA/BND/SPY data to be mislabeled.
+    close = close[tickers]
     close.index = pd.to_datetime(close.index)
     close = close.dropna()
     print(f'Downloaded {len(close)} rows from {close.index[0].date()} to {close.index[-1].date()}')
