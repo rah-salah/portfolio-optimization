@@ -1,31 +1,32 @@
 {
-  "last_actual_price": 73.47,
+  "model": "LSTM (iterative multi-step)",
+  "last_actual_price": 411.84,
   "last_actual_date": "2026-06-29",
-  "forecast_end_price": 73.48,
+  "forecast_end_price": 1032.32,
   "forecast_end_date": "2027-06-16",
-  "pct_change": 0.02,
+  "pct_change": 150.66,
   "trend_direction": "upward",
   "milestones": {
     "1_month": {
       "date": "2026-07-28",
-      "forecast_price": 73.48,
-      "ci_lower": 71.59,
-      "ci_upper": 75.36,
-      "ci_width": 3.77
+      "forecast_price": 573.8,
+      "ci_lower": 445.09,
+      "ci_upper": 702.52,
+      "ci_width": 128.71
     },
     "6_month": {
       "date": "2026-12-22",
-      "forecast_price": 73.48,
-      "ci_lower": 68.88,
-      "ci_upper": 78.08,
-      "ci_width": 9.2
+      "forecast_price": 1009.54,
+      "ci_lower": 694.26,
+      "ci_upper": 1324.83,
+      "ci_width": 315.28
     },
     "12_month": {
       "date": "2027-06-16",
-      "forecast_price": 73.48,
-      "ci_lower": 66.98,
-      "ci_upper": 79.98,
-      "ci_width": 13.0
+      "forecast_price": 1032.32,
+      "ci_lower": 586.44,
+      "ci_upper": 1478.2,
+      "ci_width": 445.88
     }
   },
   "ci_widens_over_time": true
